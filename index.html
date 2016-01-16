@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap 101 Template</title>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="css/blog.css" rel="stylesheet">
@@ -17,7 +18,34 @@
     <![endif]-->
   </head>
   <body>
-    <div class="blog-masthead">
+    <!-- NAVIGATION -->
+      <nav class="navbar-fixed-top" id="navigation">
+        <div class="container">
+
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-collapse">
+              <i class="fa fa-bars" id="hamburger"></i>
+            </button>
+            <a class="navbar-brand" href="index.html"><img id="logo_sm" src="assets/images/Poseidon_logo_sm.png" />Poseidon Software</a>
+          </div>
+          <div id="navigation-collapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#about" id="contacts" class="menuHide" tabindex="0">Contacts</a></li>
+              <li><a href="#skills" id="todo" class="menuHide" tabindex="1">Todo</a></li>
+              <li><a href="#skills" id="calendar" class="menuHide" tabindex="1">Calendar</a></li>
+              <li role="presentation" class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="login" tabindex="2"role="button" aria-haspopup="true" aria-expanded="false">Login</span></a>
+                <ul class="dropdown-menu">
+                  <li><a id="accountSettings" href="#"><span id="chevronDown" class="fa fa-user"></span>Account Settings</a></li>
+                  <li><a id="logout" href="#"><span id="chevronDown" class="fa fa-sign-out"></span>Logout</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- END OF NAVIGATION -->
+  <!--  <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
           <a class="blog-nav-item active" href="#">Home</a>
@@ -27,7 +55,7 @@
           <a class="blog-nav-item" href="#">About</a>
         </nav>
       </div>
-    </div>
+    </div>-->
 
     <div class="container">
 

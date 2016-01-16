@@ -30,7 +30,71 @@ h6, .h6 {
   }
 }
 
+/* NAVIGATION */
+#navigation{
+  font-family: 'Helvetica Neue', sans-serif;
+  width:100%;
+  background-color:  rgba(59,133,209,1.0);
+  opacity:0.97;
+  border: 0;
+  z-index:100;
+  -webkit-box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+  -moz-box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.08);
+}
 
+.container {
+  padding-top: 5px;
+}
+
+#navigation a{
+  color: white;
+  background-color: rgba(59,133,209,1.0);
+}
+
+#navigation a:hover {
+  color:   white;
+  background-color: rgba(59,133,209,1.0);
+  outline: none;
+  text-decoration: underline;
+}
+
+#navigation a:focus {
+  color: white;
+  background-color: rgba(59,133,209,1.0);
+  outline: none;
+}
+
+#logo_sm {
+  position: relative;
+  top: -12px;
+  float: left;
+  margin-top: 0;
+  padding-top: 0;
+  padding-right: 5px;
+  height: 40px;
+  width: 50px;
+}
+
+.navbar-brand {
+  font-size: 16px;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+#hamburger {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: rgba(59,133,209,1.0);
+}
+
+#chevronDown {
+  font-size: 14px;
+  padding-right: 2px;
+}
+/* END OF NAVIGATION */
 /*
  * Masthead for nav
  */
